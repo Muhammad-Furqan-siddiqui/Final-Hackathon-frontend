@@ -22,7 +22,7 @@ const Signup = () => {
 
     try {
       // Backend API call for signup
-      const response = await axios.post("https://backend-eight-kappa-79.vercel.app/signup", {
+      const response = await axios.post("https://final-hackathon-codingnight-backend.vercel.app/signup", {
         name,
         email,
         password,
